@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "building-a-database",
+    "title": "What it means to build a database from scratch",
+    "category": "SYSTEMS",
+    "date": "NOV 2026",
+    "excerpt": "Why NEXUSDB begins with disk pages, storage contracts, and testable durability\u2014not a fancy dashboard.",
+    "paragraphs": [
+      "When we say we are building a database from scratch, we mean implementing the engine that stores and retrieves information. Calling an existing database through an API is useful application development, but it does not teach the same systems trade-offs.",
+      "Our initial goal is a single-node relational database in Rust with custom page storage. SQL parsing and storage are separate subsystems so two contributors can build against a shared contract.",
+      "The engineering order matters: page I/O, durable records, SQL execution, then indexes and transaction logging. Correctness and restart tests must come before optimization.",
+      "This is a project note about architecture and goals, not a claim that the engine is already implemented."
+    ]
+  },
+  {
+    "slug": "accessible-ecommerce",
+    "title": "Designing shopping experiences beyond the keyboard",
+    "category": "PRODUCT ENGINEERING",
+    "date": "NOV 2026",
+    "excerpt": "Lessons from exploring voice input, conversational assistance, and practical accessibility in CartLoops.",
+    "paragraphs": [
+      "Accessible shopping is more than adding a voice icon to a checkout page. Users need clear state, understandable feedback, and alternative ways of completing the same task.",
+      "In CartLoops, I explored speech-to-text and chatbot interaction in a Django e-commerce setting. Those features can reduce friction for some tasks, but they also raise questions about recognition errors, privacy and fallback behavior.",
+      "A strong next iteration will test the experience with keyboard-only navigation, screen readers, and realistic failure cases. The lesson is that useful software needs good defaults and thoughtful recovery paths."
+    ]
+  },
+  {
+    "slug": "signal-features",
+    "title": "From raw wireless signals to useful features",
+    "category": "SECURITY / DATA",
+    "date": "NOV 2026",
+    "excerpt": "A brief look at dataset structure, statistical features, and careful claims in IoT security research.",
+    "paragraphs": [
+      "Raw I/Q signal recordings are difficult to use directly for simple diagnostic comparisons. A common first step is to organize recordings with reliable labels and metadata.",
+      "Our capstone explores segment-level statistical features such as variance, skewness, and kurtosis, with environmental context when it is available. The dataset and hardware constraints are important parts of the methodology.",
+      "A feature is not evidence of secure device identification by itself. Results need well-defined splits, repeatable evaluation, and careful reporting of limitations."
+    ]
+  }
+]
