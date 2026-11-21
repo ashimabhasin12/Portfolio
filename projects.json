@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "cartloops",
+    "title": "CartLoops",
+    "type": "Full-stack \u00b7 Accessibility",
+    "label": "Featured build",
+    "status": "Prototype",
+    "year": "2026",
+    "num": "01",
+    "color": "lime",
+    "icon": "\u25cc",
+    "summary": "An e-commerce experience that explores more accessible shopping through voice input and conversational assistance.",
+    "stack": [
+      "Python",
+      "Django",
+      "HTML/CSS",
+      "JavaScript",
+      "Speech-to-text"
+    ],
+    "challenge": "Traditional shopping interfaces can be frustrating when users need hands-free interaction or want help finding products.",
+    "build": "Developed a Django-based shopping experience with product browsing, a speech-to-text interaction, and a chatbot interface. Explored how voice and conversational UX can make digital shopping more approachable.",
+    "features": [
+      "Django-backed web application",
+      "Speech-to-text interaction demonstrated",
+      "Chatbot integration demonstrated",
+      "Responsive shopping interface"
+    ],
+    "next": "Improve automated accessibility audits, integrate more reliable product search, and document deployment.",
+    "links": [
+      [
+        "GitHub profile",
+        "https://github.com/ashimabhasin12"
+      ]
+    ],
+    "note": "Specific production deployment and accessibility certification have not been verified."
+  },
+  {
+    "slug": "zero-trust-engine",
+    "title": "Zero-Trust Wireless Engine",
+    "type": "Cybersecurity \u00b7 Capstone",
+    "label": "Team capstone",
+    "status": "In progress",
+    "year": "2026",
+    "num": "02",
+    "color": "violet",
+    "icon": "\u2301",
+    "summary": "A research-driven system for observing and evaluating Zigbee/IoT wireless signals with a zero-trust security focus.",
+    "stack": [
+      "Python",
+      "Flask",
+      "NumPy",
+      "SciPy",
+      "SQLite",
+      "Raspberry Pi",
+      "SDR"
+    ],
+    "challenge": "IoT and wireless sensor environments need mechanisms for recognizing unusual signal behavior and supporting trustworthy device access.",
+    "build": "Working with a four-person team to design a wireless security prototype. My assigned focus is dataset organization and feature extraction, including signal variance, skewness, kurtosis and environmental context. The team switched to an external Zigbee RF fingerprint dataset while waiting for hardware.",
+    "features": [
+      "I/Q dataset and metadata workflow",
+      "Statistical feature-extraction plan",
+      "Python backend and local data pipeline architecture",
+      "Team documentation and GitHub process"
+    ],
+    "next": "Validate features on available data, integrate modeling and dashboard behavior, and document reliable evaluation.",
+    "links": [
+      [
+        "Team repository",
+        "https://github.com/TRU-CS/comp4910_group_04"
+      ]
+    ],
+    "note": "Ongoing capstone; hardware acquisition and end-to-end test results are not represented as complete."
+  },
+  {
+    "slug": "nexusdb",
+    "title": "NEXUSDB",
+    "type": "Systems \u00b7 Databases",
+    "label": "Active build",
+    "status": "Planning / starting",
+    "year": "2026\u201327",
+    "num": "03",
+    "color": "cyan",
+    "icon": "\u25a5",
+    "summary": "A Rust database engine built from the ground up, emphasizing custom persistent storage and systems correctness.",
+    "stack": [
+      "Rust",
+      "Cargo",
+      "SQL",
+      "B+ trees",
+      "WAL",
+      "GitHub Actions"
+    ],
+    "challenge": "Understand how database systems actually store bytes, interpret SQL, maintain indexes, and recover from failure rather than relying on existing storage engines.",
+    "build": "Co-designing a 12-week, two-developer implementation. My ownership covers disk pages, serialization, record storage, B+ tree indexing, and transaction durability. The other developer owns SQL parsing and developer-facing interfaces.",
+    "features": [
+      "Custom on-disk page format \u2014 planned",
+      "B+ tree indexing \u2014 planned",
+      "Single-writer transactions and WAL \u2014 planned",
+      "SQL / CLI integration \u2014 planned"
+    ],
+    "next": "Agree on storage contracts, initialize Rust workspace, write page manager tests, and verify persistence across restart.",
+    "links": [
+      [
+        "GitHub profile",
+        "https://github.com/ashimabhasin12"
+      ]
+    ],
+    "note": "The listed database capabilities are roadmap items, not completed functionality."
+  },
+  {
+    "slug": "amr-feature-pipeline",
+    "title": "AMR Feature Pipeline",
+    "type": "Bioinformatics \u00b7 ML",
+    "label": "Research engineering",
+    "status": "Course project",
+    "year": "2026",
+    "num": "04",
+    "color": "orange",
+    "icon": "\u2733",
+    "summary": "Machine-learning feature engineering for antimicrobial-resistance data and genomic analysis workflows.",
+    "stack": [
+      "Python",
+      "XGBoost",
+      "LightGBM",
+      "Bioinformatics",
+      "Feature engineering"
+    ],
+    "challenge": "Turning resistance-gene annotations into useful, validated machine-learning features requires repeatable preprocessing and careful handling of sparse labels.",
+    "build": "Contributed to a BioML Lab capstone exploring MEGARes-enriched ARGProfiler outputs and downstream machine-learning features. Investigated issues such as insufficient class counts for stratified cross-validation.",
+    "features": [
+      "Pipeline and feature design",
+      "MEGARes / ARGProfiler integration exploration",
+      "Modeling experiments",
+      "Evaluation constraints documented"
+    ],
+    "next": "Consolidate reproducible evaluation and expand appropriately labeled datasets before drawing strong performance claims.",
+    "links": [],
+    "note": "A course/research collaboration, not a published clinical tool."
+  },
+  {
+    "slug": "stored-grain-ai",
+    "title": "Stored-Grain Pest Classification",
+    "type": "AI \u00b7 Computer Vision",
+    "label": "Academic research",
+    "status": "Completed coursework",
+    "year": "2026",
+    "num": "05",
+    "color": "pink",
+    "icon": "\u25ce",
+    "summary": "An image-classification study comparing convolutional neural networks and vision transformers on stored-grain insects.",
+    "stack": [
+      "Python",
+      "PyTorch",
+      "ResNet",
+      "VGG16",
+      "DeiT"
+    ],
+    "challenge": "Explore model suitability for classifying pest images using a small three-class dataset.",
+    "build": "Conducted comparative experiments with VGG and ResNet families alongside DeiT transformer variants. Organized training, evaluation, and academic reporting with a team collaborator.",
+    "features": [
+      "Roughly 3,000+ images across 3 classes",
+      "Images standardized to 224 \u00d7 224",
+      "CNN and transformer comparisons",
+      "Final report and project poster"
+    ],
+    "next": "Improve data quality, class balance and experimental rigor before using models in practical pest monitoring.",
+    "links": [],
+    "note": "Experiments were exploratory; reported results should not be interpreted as deployment-grade accuracy."
+  },
+  {
+    "slug": "django-commerce",
+    "title": "Django E-Commerce",
+    "type": "Full-stack \u00b7 Web",
+    "label": "Web development",
+    "status": "Repository started",
+    "year": "2026",
+    "num": "06",
+    "color": "blue",
+    "icon": "\u2197",
+    "summary": "A Django learning-and-build project exploring common e-commerce backend patterns and web application development.",
+    "stack": [
+      "Python",
+      "Django",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git"
+    ],
+    "challenge": "Apply full-stack architecture to familiar commercial workflows and develop reliable development habits.",
+    "build": "Created a GitHub repository and worked through the practical setup and version-control process for a Django e-commerce application.",
+    "features": [
+      "Django project setup",
+      "Source control and repository workflow",
+      "Foundational web application architecture"
+    ],
+    "next": "Document current working functionality, add tests, and publish reproducible setup instructions.",
+    "links": [
+      [
+        "Project repository",
+        "https://github.com/ashimabhasin12/django-ecommerce"
+      ]
+    ],
+    "note": "Only repository/setup work is verified; no checkout or payment system is claimed."
+  },
+  {
+    "slug": "web-systems-lab",
+    "title": "Web Systems Lab",
+    "type": "Web \u00b7 Databases",
+    "label": "Technical coursework",
+    "status": "Coursework",
+    "year": "2026",
+    "num": "07",
+    "color": "mint",
+    "icon": "\u25c7",
+    "summary": "A collection of practical applications using PHP, MySQL, Node.js, Express, MongoDB, and AngularJS.",
+    "stack": [
+      "PHP",
+      "MySQL",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "AngularJS"
+    ],
+    "challenge": "Build and debug client\u2013server features across multiple backend and database technologies.",
+    "build": "Completed exercises around validation, authentication requests, registration/login interactions, API routes, and MongoDB persistence.",
+    "features": [
+      "Client-side form validation",
+      "Express server endpoints",
+      "MongoDB collections",
+      "AngularJS authentication integration"
+    ],
+    "next": "Refactor examples into polished, independently deployable demos with security review and tests.",
+    "links": [],
+    "note": "Educational implementations; avoid deploying learning authentication code as-is."
+  },
+  {
+    "slug": "cpp-oop",
+    "title": "C++ OOP & Algorithms",
+    "type": "Computer Science \u00b7 Foundations",
+    "label": "Academic work",
+    "status": "Coursework",
+    "year": "2026",
+    "num": "08",
+    "color": "amber",
+    "icon": "{}",
+    "summary": "Foundational programming, object-oriented design, algorithm analysis, and data-structure assignments.",
+    "stack": [
+      "C++",
+      "OOP",
+      "Data Structures",
+      "Algorithms",
+      "Complexity Analysis"
+    ],
+    "challenge": "Translate algorithmic requirements and problem-solving principles into understandable, testable implementations.",
+    "build": "Worked on class design, loops, recursion, Fibonacci algorithms, AVL trees, queues, and complexity analysis.",
+    "features": [
+      "Classes and object-oriented models",
+      "Recursive and iterative algorithms",
+      "Trees, stacks and queues",
+      "Asymptotic runtime reasoning"
+    ],
+    "next": "Publish carefully selected original implementations with tests and technical explanations.",
+    "links": [],
+    "note": "Coursework descriptions are summarized; source archives are not automatically published."
+  }
+]
